@@ -1,13 +1,5 @@
 {
   "buildCommand": "pnpm build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/index.html"
-    }
-  ]
+  "outputDirectory": "dist/public",
+  "framework": "vite"
 }

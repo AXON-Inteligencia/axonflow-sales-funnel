@@ -33,9 +33,9 @@ export default function Home() {
               Contato
             </a>
           </div>
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            Começar Agora
-          </Button>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              Adquirir Acesso
+            </Button>
         </div>
       </nav>
 
@@ -65,10 +65,10 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
-                Começar Teste Gratuito
+                Adquirir Acesso Agora
               </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                Ver Demo
+                Falar com Vendedor
               </Button>
             </div>
             <div className="mt-12 flex items-center gap-8 text-sm">
@@ -204,7 +204,7 @@ export default function Home() {
             {[
               {
                 name: "Starter",
-                price: "R$ 99",
+                price: "R$ 799",
                 period: "/mês",
                 description: "Perfeito para começar",
                 features: [
@@ -214,12 +214,12 @@ export default function Home() {
                   "Suporte por email",
                   "Automações simples",
                 ],
-                cta: "Começar Agora",
+                cta: "Adquirir Agora",
                 highlighted: false,
               },
               {
                 name: "Professional",
-                price: "R$ 299",
+                price: "R$ 1.499",
                 period: "/mês",
                 description: "Para equipes em crescimento",
                 features: [
@@ -230,13 +230,13 @@ export default function Home() {
                   "Automações ilimitadas",
                   "Integrações customizadas",
                 ],
-                cta: "Começar Agora",
+                cta: "Adquirir Agora",
                 highlighted: true,
               },
               {
                 name: "Enterprise",
-                price: "Customizado",
-                period: "",
+                price: "R$ 4.999",
+                period: "/mês",
                 description: "Para grandes operações",
                 features: [
                   "Bots ilimitados",
@@ -246,7 +246,7 @@ export default function Home() {
                   "API completa",
                   "Consultoria estratégica",
                 ],
-                cta: "Falar com Vendas",
+                cta: "Adquirir Agora",
                 highlighted: false,
               },
             ].map((plan, i) => (
@@ -301,9 +301,9 @@ export default function Home() {
             Junte-se a milhares de empresas que já estão automatizando suas vendas com AxonFlow
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
-            Começar Teste Gratuito - 14 Dias
+            Adquirir Acesso Agora
           </Button>
-          <p className="text-muted-foreground text-sm mt-4">Sem cartão de crédito necessário</p>
+          <p className="text-muted-foreground text-sm mt-4">Escolha seu plano e comece hoje</p>
         </div>
       </section>
 

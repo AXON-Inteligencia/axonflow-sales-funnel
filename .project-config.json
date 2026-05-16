@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663666661688/dZhZNKGJcSF93tjVGMHenT",
+    "access_key_id": "ASIAZV3A2ECZJP2QBJUI",
+    "secret_access_key": "GlYTCujNu0ms0LQequXQqhSfM1o22cy0oWwKU9GC",
+    "session_token": "IQoJb3JpZ2luX2VjEMr//////////wEaCXVzLWVhc3QtMSJHMEUCIF8bz8hEPB4sNLlSNbHfuv6zddB4NqGGKvLXTlVwyaEDAiEAzvPu4+DfPQ3EvuM4odOg4zDFAJgOQFGRdBSzKPGURQcq/QMIk///////////ARAEGgw2NjUzODYwOTg4NjYiDFOFtxNo7xLe3xRZYSrRA9aCR6LRrWjRHsnj/Y3beJ/YUiWdPwLQJPNFq/TnGy4ljXia47ehgF8ZWLlZGmWggZbOfmufZgr0p7lo/9hHDrD5FmPcQccFvVJGwyVX1hiMLci+sQVOcZ8e8hSNx14p45lnOioecPNT57MxLxjD8RoJ2X+1TsSyUByHjH8ErW+6ISLBvuTdvMMUtNKjH+4zgqjOEOxmG6Ey9o9x9bJMPm6Tu3iilXnQZsiJL7GxABphMBzNmQckvdUjyUrZXxZOL2SP3SuH39H0Mo2OdOZRIftBr9VursTZMMpv4hSFMjNfYi4WDa5C38baylCl8jSyyfCK7PY3lXXexwxFUfHX/uGBM9vhp6FMVbidkK/l+PDzKvNKPcwmcASTfwKcWKx5Ml0Rr5i1vSoJcy+3b60v4MDI3+XcGHn7mR6fEcRZNLT85a+QXfmTHwCdnCIY+dKlDneerh92tyXtpZm0CV8SfVOP62I7OksR7VAtlOzl/G8V10XgqgE+jrgZJ5WIjMbBSOUuZSm0ZbrkVrme2Wr9FYdVk53qOGN4RHSEfhdCGakyC24Ofm4XWlGFA70+E1uqqfbVDtWIWscD4iICIlfrAj66xveyOGv1XZAaO7k+taa2/DDf2qLQBjqdAYLFWx7m7mMiKgfzS46m9B+Br1/qHQoh314BzGX+OGAJ1YGUL/qlBIQYUcj/er/3LUrJ2/Ef5n3b/Qe3ElTmUEyIZs4PN+qg7Q36rRGNkSiFFno2rb4MlLOmJP/vFWDOK/0Z0ZiEt/g6oZ4q4Fqeddm2P/ESr/8Quiz8kbNnAqSFQuMvBcmZ1L/vgGKDExasve+QR2CN/kI1BRH9EwA=",
+    "expiration": "2026-05-17T05:46:07.000Z"
+  },
+  "name": "axonflow_sales_funnel",
+  "path": "/home/ubuntu/axonflow_sales_funnel",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "EsgEeaRzBhbvvdUtLnJwge",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "8GwwxdeKfop869msS2aZGV",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Ronaldo Fenomeno",
+    "OWNER_OPEN_ID": "CbDoEriXEFc7RmUWAhfqvx",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "8dea0f35-e13e-4735-a999-e3fbaa0534f3",
+    "VITE_APP_ID": "dZhZNKGJcSF93tjVGMHenT",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "AxonFlow - Funil de Vendas",
+    "VITE_FRONTEND_FORGE_API_KEY": "V6pKtUaQBhK6hWeLSddWeJ",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
